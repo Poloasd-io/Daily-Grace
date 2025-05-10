@@ -10,23 +10,6 @@
 <body>
   <div class="phone-frame">
     <div class="screen-slider" id="slider">
-      <!-- Sign Up Screen -->
-      <div class="screen">
-        <h1 class="title">Daily Grace</h1>
-        <h2>Sign Up</h2>
-        <form id="signupForm">
-          <label for="name">Name</label>
-          <input type="text" id="name" required>
-          <label for="email-signup">Email</label>
-          <input type="email" id="email-signup" required>
-          <label for="password-signup">Password</label>
-          <input type="password" id="password-signup" required>
-          <label for="confirm-password">Confirm Password</label>
-          <input type="password" id="confirm-password" required>
-          <button type="submit">Sign Up</button>
-        </form>
-        <p class="link-text">Already have an account? <a id="toLogin">Log In</a></p>
-      </div>
 
       <!-- Log In Screen -->
       <div class="screen">
@@ -34,9 +17,9 @@
         <h2>Log In</h2>
         <form id="loginForm">
           <label for="email-login">Email</label>
-          <input type="email" id="email-login" required>
+          <input type="email" id="email-login" value="demo@dailygrace.com" required>
           <label for="password-login">Password</label>
-          <input type="password" id="password-login" required>
+          <input type="password" id="password-login" value="password123" required>
           <div class="form-options">
             <label><input type="checkbox"> Remember Me</label>
             <a href="#">Forgot Password?</a>
@@ -45,6 +28,25 @@
         </form>
         <p class="link-text">Don’t have an account? <a id="toSignup">Sign Up</a></p>
       </div>
+
+      <!-- Sign Up Screen -->
+      <div class="screen">
+        <h1 class="title">Daily Grace</h1>
+        <h2>Sign Up</h2>
+        <form id="signupForm">
+          <label for="name">Name</label>
+          <input type="text" id="name" value="Demo Account" required>
+          <label for="email-signup">Email</label>
+          <input type="email" id="email-signup" value="demo@dailygrace.com" required>
+          <label for="password-signup">Password</label>
+          <input type="password" id="password-signup" value="password123" required>
+          <label for="confirm-password">Confirm Password</label>
+          <input type="password" id="confirm-password" value="password123" required>
+          <button type="submit">Sign Up</button>
+        </form>
+        <p class="link-text">Already have an account? <a id="toLogin">Log In</a></p>
+      </div>
+
     </div>
   </div>
   <script src="script.js"></script>
