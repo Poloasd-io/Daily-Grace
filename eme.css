@@ -1,0 +1,563 @@
+.home,
+.home * {
+  box-sizing: border-box;
+}
+.home {
+  height: 934px;
+  position: relative;
+}
+.contents {
+  background: var(--backgrounds-primary, #ffffff);
+  border-radius: 44px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.content-area {
+  background: #faf8eb;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 886px;
+  position: relative;
+}
+.how-are-you-feeling-today {
+  color: #000000;
+  text-align: center;
+  font-family: "TwCenMt-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 400;
+  position: absolute;
+  left: 87px;
+  top: 201px;
+  width: 275px;
+  height: 24px;
+}
+.daily-grace {
+  color: #000000;
+  text-align: center;
+  font-family: "AbhayaLibre-Regular", sans-serif;
+  font-size: 64px;
+  line-height: 22px;
+  font-weight: 400;
+  position: absolute;
+  left: 16px;
+  top: 159px;
+  width: 404px;
+  height: 42px;
+}
+.navigation-bar {
+  background: #faf8eb;
+  border-radius: 44px 44px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 433px;
+  height: 68px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.materials {
+  background: #faf8eb;
+  border-style: solid;
+  border-color: var(--miscellaneous-bar-border, rgba(0, 0, 0, 0.3));
+  border-width: 0px 0px 0.33px 0px;
+  flex-shrink: 0;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.status-bar-i-phone {
+  padding: 21px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 402px;
+  height: 54px;
+  position: relative;
+}
+.frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.time {
+  padding: 0px 6px 0px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+}
+.time2 {
+  color: var(--labels-primary, #000000);
+  text-align: center;
+  font-family: "SfPro-Semibold", sans-serif;
+  font-size: 17px;
+  line-height: 22px;
+  font-weight: 600;
+  position: relative;
+}
+.dynamic-island-spacer {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 124px;
+  height: 10px;
+  position: relative;
+}
+.levels {
+  padding: 0px 16px 0px 6px;
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+}
+.cellular-connection {
+  flex-shrink: 0;
+  width: 19.2px;
+  height: 12.23px;
+  position: relative;
+  overflow: visible;
+}
+.wifi {
+  flex-shrink: 0;
+  width: 17.14px;
+  height: 12.33px;
+  position: relative;
+  overflow: visible;
+}
+.battery {
+  flex-shrink: 0;
+  width: 27.33px;
+  height: 13px;
+  position: relative;
+  overflow: visible;
+}
+.image-1 {
+  width: 449px;
+  height: 257px;
+  position: absolute;
+  left: -6px;
+  top: 225px;
+  object-fit: cover;
+  aspect-ratio: 449/257;
+}
+.happy {
+  width: 72px;
+  height: 33px;
+  position: absolute;
+  left: 46px;
+  top: 236px;
+}
+.rectangle-1 {
+  background: #f4ead1;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.happy2 {
+  color: #000000;
+  text-align: center;
+  font-family: "TwCenMt-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 400;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 12.12%;
+  top: 0%;
+  height: 87.88%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sad {
+  width: 72px;
+  height: 33px;
+  position: absolute;
+  left: 136px;
+  top: 236px;
+}
+.sad2 {
+  color: #000000;
+  text-align: center;
+  font-family: "TwCenMt-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 400;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 12.12%;
+  top: 0%;
+  height: 87.88%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.angry {
+  width: 72px;
+  height: 33px;
+  position: absolute;
+  left: 226px;
+  top: 236px;
+}
+.angry2 {
+  color: #000000;
+  text-align: center;
+  font-family: "TwCenMt-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 400;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 12.12%;
+  top: 0%;
+  height: 87.88%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.afraid {
+  width: 72px;
+  height: 33px;
+  position: absolute;
+  left: 316px;
+  top: 236px;
+}
+.afraid2 {
+  color: #000000;
+  text-align: center;
+  font-family: "TwCenMt-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 400;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 12.12%;
+  top: 0%;
+  height: 87.88%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.worried {
+  width: 72px;
+  height: 33px;
+  position: absolute;
+  left: 48px;
+  top: 280px;
+}
+.worried2 {
+  color: #000000;
+  text-align: center;
+  font-family: "TwCenMt-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 12.12%;
+  top: 0%;
+  height: 87.88%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tired {
+  width: 72px;
+  height: 33px;
+  position: absolute;
+  left: 136px;
+  top: 280px;
+}
+.tired2 {
+  color: #000000;
+  text-align: center;
+  font-family: "TwCenMt-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 12.12%;
+  top: 0%;
+  height: 87.88%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lonely {
+  width: 72px;
+  height: 33px;
+  position: absolute;
+  left: 226px;
+  top: 280px;
+}
+.lonely2 {
+  color: #000000;
+  text-align: center;
+  font-family: "TwCenMt-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 12.12%;
+  top: 0%;
+  height: 87.88%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loved {
+  width: 72px;
+  height: 33px;
+  position: absolute;
+  left: 316px;
+  top: 280px;
+}
+.loved2 {
+  color: #000000;
+  text-align: center;
+  font-family: "TwCenMt-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 12.12%;
+  top: 0%;
+  height: 87.88%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rectangle-2 {
+  background: #fcf4e9;
+  border-radius: 50px;
+  width: 433px;
+  height: 310px;
+  position: absolute;
+  left: 0px;
+  top: 424px;
+}
+.romans-12-12-rejoice-in-hope-be-patient-in-tribulation-be-constant-in-prayer {
+  color: #000000;
+  text-align: center;
+  font-family: "TwCenMt-Regular", sans-serif;
+  font-size: 36px;
+  line-height: 35px;
+  font-weight: 400;
+  position: absolute;
+  left: 50px;
+  top: 522px;
+  width: 337px;
+  height: 236px;
+}
+.rectangle-3 {
+  background: #fccd95;
+  border-radius: 50px 50px 0px 0px;
+  width: 433px;
+  height: 68px;
+  position: absolute;
+  left: 0px;
+  top: 424px;
+}
+.april-13-2025-verse-of-the-day {
+  color: #000000;
+  text-align: left;
+  position: absolute;
+  left: 30px;
+  top: 432px;
+  width: 354px;
+  height: 41px;
+}
+.april-13-2025-verse-of-the-day-span {
+  font-family: "TwCenMtCondensedExtraBold-Regular", sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 400;
+}
+.april-13-2025-verse-of-the-day-span2 {
+  font-family: "TwCenMtCondensedExtraBold-Regular", sans-serif;
+  font-size: 36px;
+  line-height: 30px;
+  font-weight: 400;
+}
+.heart {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  left: 82px;
+  top: 718px;
+  overflow: visible;
+}
+.plus-circle {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  left: 201px;
+  top: 718px;
+  overflow: visible;
+}
+.share {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  left: 304px;
+  top: 718px;
+  overflow: visible;
+}
+.rectangle-4 {
+  background: #fccd95;
+  width: 433px;
+  height: 97px;
+  position: absolute;
+  left: 0px;
+  top: 789px;
+}
+.ellipse-2 {
+  background: #fcf4e9;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  left: 16px;
+  top: 793px;
+}
+.home2 {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  left: 37px;
+  top: 810px;
+  overflow: visible;
+}
+.ellipse-3 {
+  width: 92px;
+  height: 90px;
+  position: absolute;
+  left: 219px;
+  top: 793px;
+  overflow: visible;
+}
+.ellipse-5 {
+  width: 92px;
+  height: 90px;
+  position: absolute;
+  left: 323px;
+  top: 793px;
+  overflow: visible;
+}
+.ellipse-4 {
+  background: #fcf4e9;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 93px;
+  height: 90px;
+  position: absolute;
+  left: 118px;
+  top: 793px;
+}
+.image-removebg-preview-5-1 {
+  width: 71px;
+  height: 71px;
+  position: absolute;
+  left: 130px;
+  top: 802px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.image-2 {
+  width: 58px;
+  height: 58px;
+  position: absolute;
+  left: 236px;
+  top: 805px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.person {
+  width: 62px;
+  height: 67px;
+  position: absolute;
+  left: 338px;
+  top: 800px;
+  overflow: visible;
+}
+.home-indicator {
+  padding: 21px 129px 8px 129px;
+  height: 34px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+.home-indicator2 {
+  background: var(--labels-primary, #000000);
+  border-radius: 100px;
+  width: 144px;
+  height: 5px;
+  position: absolute;
+  left: calc(50% - -72.5px);
+  bottom: 8px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(-1, 1);
+}
